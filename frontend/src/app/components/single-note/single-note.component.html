@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Update note</h1>
+    <form [formGroup]="updateItem">
+        <div class="title">
+            <label>Title: </label>
+            <input type="text" formControlName="title" name="title" #title>
+        </div>
+        <div class="desc">
+            <label>Description: </label>
+            <input type="text" formControlName="desc" name="desc" #desc>
+        </div>
+        <button class="btn btn-success" type="submit" (click)="onSubmit()">Update</button>
+    </form>
+</div>

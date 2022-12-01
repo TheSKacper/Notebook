@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Add new note</h1>
+    <form [formGroup]="addNote">
+        <div class="title">
+            <label>Title: </label>
+            <input type="text" formControlName="title" name="title" #title>
+        </div>
+        <div class="desc">
+            <label>Description: </label>
+            <input type="text" formControlName="desc" name="desc" #desc>
+        </div>
+        <button class="btn btn-success" type="submit" (click)="onSubmit()">Add</button>
+    </form>
+</div>

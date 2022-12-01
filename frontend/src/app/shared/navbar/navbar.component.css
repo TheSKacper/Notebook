@@ -1,0 +1,39 @@
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.logo p
+{
+    color: black;
+    font-size:40px;
+}
+
+.options ul li 
+{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    display: block;
+}
+
+.options ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+}   
+
+.options ul li a:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
